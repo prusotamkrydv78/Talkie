@@ -1,0 +1,12 @@
+/* Video calls component specific styles */
+
+/* Pulse animation for the "Live" indicator */
+@keyframes livePulse {
+  0% { opacity: 0.6; }
+  50% { opacity: 1; }
+  100% { opacity: 0.6; }
+}
+
+.bg-green-100 {
+  animation: livePulse 2s infinite ease-in-out;
+}

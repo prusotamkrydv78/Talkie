@@ -1,0 +1,25 @@
+/* Messages component specific styles */
+
+/* Custom animation for typing indicator */
+@keyframes typingPulse {
+  0% { opacity: 0.4; }
+  50% { opacity: 1; }
+  100% { opacity: 0.4; }
+}
+
+.animate-pulse {
+  animation: typingPulse 1.5s infinite ease-in-out;
+}
+
+/* Stagger the animation for each dot */
+.animate-pulse:nth-child(1) {
+  animation-delay: 0s;
+}
+
+.animate-pulse:nth-child(2) {
+  animation-delay: 0.2s;
+}
+
+.animate-pulse:nth-child(3) {
+  animation-delay: 0.4s;
+}

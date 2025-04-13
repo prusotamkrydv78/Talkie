@@ -1,0 +1,235 @@
+<div class="container mx-auto px-4 py-6">
+  <div class="flex flex-col md:flex-row gap-6">
+    <!-- Left Column: Groups List -->
+    <div class="w-full md:w-1/3">
+      <div class="bg-white dark:bg-gray-800 rounded-lg shadow-md overflow-hidden">
+        <div class="p-4 border-b border-gray-200 dark:border-gray-700 flex items-center justify-between">
+          <h2 class="text-lg font-semibold text-gray-900 dark:text-white">Your Groups</h2>
+          <button class="p-2 rounded-full bg-indigo-100 text-indigo-600 dark:bg-indigo-900 dark:text-indigo-300 hover:bg-indigo-200 dark:hover:bg-indigo-800 focus:outline-none">
+            <svg class="h-5 w-5" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6v6m0 0v6m0-6h6m-6 0H6" />
+            </svg>
+          </button>
+        </div>
+        
+        <div class="p-4">
+          <div class="relative">
+            <input type="text" placeholder="Search groups" class="w-full px-3 py-2 border border-gray-300 dark:border-gray-600 rounded-md bg-gray-50 dark:bg-gray-700 text-gray-900 dark:text-white placeholder-gray-500 dark:placeholder-gray-400 focus:outline-none focus:ring-1 focus:ring-indigo-500 dark:focus:ring-indigo-400">
+          </div>
+        </div>
+        
+        <!-- Groups List -->
+        <div class="overflow-y-auto max-h-[calc(100vh-20rem)]">
+          <!-- Active Group -->
+          <div class="p-3 flex items-center space-x-3 bg-indigo-50 dark:bg-gray-700 border-l-4 border-indigo-500 dark:border-indigo-400">
+            <div class="flex-shrink-0">
+              <div class="h-12 w-12 rounded-lg bg-gradient-to-br from-indigo-500 to-purple-600 flex items-center justify-center text-white font-bold">TD</div>
+            </div>
+            <div class="flex-1 min-w-0">
+              <div class="flex items-center justify-between">
+                <h3 class="text-sm font-medium text-gray-900 dark:text-white truncate">Talkie Developers</h3>
+                <span class="text-xs text-gray-500 dark:text-gray-400">2m</span>
+              </div>
+              <p class="text-sm text-gray-600 dark:text-gray-300 truncate">John: Let's discuss the new features</p>
+              <div class="flex items-center mt-1">
+                <div class="flex -space-x-2">
+                  <div class="h-5 w-5 rounded-full bg-indigo-500 flex items-center justify-center text-white text-xs font-bold ring-2 ring-white dark:ring-gray-800">J</div>
+                  <div class="h-5 w-5 rounded-full bg-purple-500 flex items-center justify-center text-white text-xs font-bold ring-2 ring-white dark:ring-gray-800">A</div>
+                  <div class="h-5 w-5 rounded-full bg-green-500 flex items-center justify-center text-white text-xs font-bold ring-2 ring-white dark:ring-gray-800">B</div>
+                </div>
+                <span class="text-xs text-gray-500 dark:text-gray-400 ml-2">+12 members</span>
+              </div>
+            </div>
+          </div>
+          
+          <!-- Other Groups -->
+          <div class="p-3 flex items-center space-x-3 hover:bg-gray-50 dark:hover:bg-gray-700">
+            <div class="flex-shrink-0">
+              <div class="h-12 w-12 rounded-lg bg-gradient-to-br from-blue-500 to-teal-400 flex items-center justify-center text-white font-bold">UI</div>
+            </div>
+            <div class="flex-1 min-w-0">
+              <div class="flex items-center justify-between">
+                <h3 class="text-sm font-medium text-gray-900 dark:text-white truncate">UI/UX Team</h3>
+                <span class="text-xs text-gray-500 dark:text-gray-400">1h</span>
+              </div>
+              <p class="text-sm text-gray-600 dark:text-gray-300 truncate">Emma: Check out the new design</p>
+              <div class="flex items-center mt-1">
+                <div class="flex -space-x-2">
+                  <div class="h-5 w-5 rounded-full bg-yellow-500 flex items-center justify-center text-white text-xs font-bold ring-2 ring-white dark:ring-gray-800">E</div>
+                  <div class="h-5 w-5 rounded-full bg-red-500 flex items-center justify-center text-white text-xs font-bold ring-2 ring-white dark:ring-gray-800">M</div>
+                </div>
+                <span class="text-xs text-gray-500 dark:text-gray-400 ml-2">+8 members</span>
+              </div>
+            </div>
+          </div>
+          
+          <div class="p-3 flex items-center space-x-3 hover:bg-gray-50 dark:hover:bg-gray-700">
+            <div class="flex-shrink-0">
+              <div class="h-12 w-12 rounded-lg bg-gradient-to-br from-orange-500 to-pink-500 flex items-center justify-center text-white font-bold">MK</div>
+            </div>
+            <div class="flex-1 min-w-0">
+              <div class="flex items-center justify-between">
+                <h3 class="text-sm font-medium text-gray-900 dark:text-white truncate">Marketing Team</h3>
+                <span class="text-xs text-gray-500 dark:text-gray-400">Yesterday</span>
+              </div>
+              <p class="text-sm text-gray-600 dark:text-gray-300 truncate">Alice: Campaign results are in!</p>
+              <div class="flex items-center mt-1">
+                <div class="flex -space-x-2">
+                  <div class="h-5 w-5 rounded-full bg-purple-500 flex items-center justify-center text-white text-xs font-bold ring-2 ring-white dark:ring-gray-800">A</div>
+                  <div class="h-5 w-5 rounded-full bg-blue-500 flex items-center justify-center text-white text-xs font-bold ring-2 ring-white dark:ring-gray-800">B</div>
+                </div>
+                <span class="text-xs text-gray-500 dark:text-gray-400 ml-2">+5 members</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <!-- Right Column: Group Details -->
+    <div class="w-full md:w-2/3">
+      <div class="bg-white dark:bg-gray-800 rounded-lg shadow-md overflow-hidden">
+        <!-- Group Header -->
+        <div class="p-4 border-b border-gray-200 dark:border-gray-700 flex items-center justify-between">
+          <div class="flex items-center space-x-3">
+            <div class="h-12 w-12 rounded-lg bg-gradient-to-br from-indigo-500 to-purple-600 flex items-center justify-center text-white font-bold">TD</div>
+            <div>
+              <h2 class="text-lg font-semibold text-gray-900 dark:text-white">Talkie Developers</h2>
+              <p class="text-sm text-gray-500 dark:text-gray-400">15 members • Created on May 10, 2023</p>
+            </div>
+          </div>
+          <div class="flex items-center space-x-2">
+            <button class="p-2 rounded-full text-gray-500 hover:text-gray-900 dark:text-gray-400 dark:hover:text-white focus:outline-none">
+              <svg class="h-5 w-5" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 10l4.553-2.276A1 1 0 0121 8.618v6.764a1 1 0 01-1.447.894L15 14M5 18h8a2 2 0 002-2V8a2 2 0 00-2-2H5a2 2 0 00-2 2v8a2 2 0 002 2z" />
+              </svg>
+            </button>
+            <button class="p-2 rounded-full text-gray-500 hover:text-gray-900 dark:text-gray-400 dark:hover:text-white focus:outline-none">
+              <svg class="h-5 w-5" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 5v.01M12 12v.01M12 19v.01M12 6a1 1 0 110-2 1 1 0 010 2zm0 7a1 1 0 110-2 1 1 0 010 2zm0 7a1 1 0 110-2 1 1 0 010 2z" />
+              </svg>
+            </button>
+          </div>
+        </div>
+        
+        <!-- Group Tabs -->
+        <div class="border-b border-gray-200 dark:border-gray-700">
+          <nav class="flex -mb-px">
+            <a href="#" class="px-6 py-3 border-b-2 border-indigo-500 dark:border-indigo-400 text-sm font-medium text-indigo-600 dark:text-indigo-400">Chat</a>
+            <a href="#" class="px-6 py-3 border-b-2 border-transparent text-sm font-medium text-gray-500 dark:text-gray-400 hover:text-gray-700 dark:hover:text-gray-300 hover:border-gray-300 dark:hover:border-gray-600">Files</a>
+            <a href="#" class="px-6 py-3 border-b-2 border-transparent text-sm font-medium text-gray-500 dark:text-gray-400 hover:text-gray-700 dark:hover:text-gray-300 hover:border-gray-300 dark:hover:border-gray-600">Members</a>
+            <a href="#" class="px-6 py-3 border-b-2 border-transparent text-sm font-medium text-gray-500 dark:text-gray-400 hover:text-gray-700 dark:hover:text-gray-300 hover:border-gray-300 dark:hover:border-gray-600">Settings</a>
+          </nav>
+        </div>
+        
+        <!-- Group Chat -->
+        <div class="flex flex-col h-[calc(100vh-24rem)]">
+          <!-- Messages -->
+          <div class="flex-1 p-4 overflow-y-auto">
+            <!-- Timestamp -->
+            <div class="flex justify-center mb-4">
+              <span class="text-xs text-gray-500 dark:text-gray-400 bg-gray-100 dark:bg-gray-700 px-2 py-1 rounded-full">Today, 10:30 AM</span>
+            </div>
+            
+            <!-- Message -->
+            <div class="flex mb-4">
+              <div class="flex-shrink-0 mr-3">
+                <div class="h-8 w-8 rounded-full bg-indigo-500 flex items-center justify-center text-white font-bold text-xs">JD</div>
+              </div>
+              <div class="flex flex-col items-start max-w-[70%]">
+                <div class="flex items-center mb-1">
+                  <span class="text-sm font-medium text-gray-900 dark:text-white mr-2">John Doe</span>
+                  <span class="text-xs text-gray-500 dark:text-gray-400">10:30 AM</span>
+                </div>
+                <div class="bg-gray-100 dark:bg-gray-700 rounded-lg px-4 py-2">
+                  <p class="text-gray-800 dark:text-gray-200">Hey team, let's discuss the new features for the next release. I think we should prioritize the video calling improvements.</p>
+                </div>
+              </div>
+            </div>
+            
+            <!-- Message -->
+            <div class="flex mb-4">
+              <div class="flex-shrink-0 mr-3">
+                <div class="h-8 w-8 rounded-full bg-purple-500 flex items-center justify-center text-white font-bold text-xs">AS</div>
+              </div>
+              <div class="flex flex-col items-start max-w-[70%]">
+                <div class="flex items-center mb-1">
+                  <span class="text-sm font-medium text-gray-900 dark:text-white mr-2">Alice Smith</span>
+                  <span class="text-xs text-gray-500 dark:text-gray-400">10:32 AM</span>
+                </div>
+                <div class="bg-gray-100 dark:bg-gray-700 rounded-lg px-4 py-2">
+                  <p class="text-gray-800 dark:text-gray-200">I agree. The users have been requesting better video quality and screen sharing options.</p>
+                </div>
+              </div>
+            </div>
+            
+            <!-- Message with attachment -->
+            <div class="flex mb-4">
+              <div class="flex-shrink-0 mr-3">
+                <div class="h-8 w-8 rounded-full bg-blue-500 flex items-center justify-center text-white font-bold text-xs">BJ</div>
+              </div>
+              <div class="flex flex-col items-start max-w-[70%]">
+                <div class="flex items-center mb-1">
+                  <span class="text-sm font-medium text-gray-900 dark:text-white mr-2">Bob Johnson</span>
+                  <span class="text-xs text-gray-500 dark:text-gray-400">10:35 AM</span>
+                </div>
+                <div class="bg-gray-100 dark:bg-gray-700 rounded-lg px-4 py-2 mb-1">
+                  <p class="text-gray-800 dark:text-gray-200 mb-2">I've prepared a document with the proposed improvements. Take a look:</p>
+                  <div class="flex items-center p-2 bg-white dark:bg-gray-600 rounded border border-gray-200 dark:border-gray-500">
+                    <svg class="h-8 w-8 text-red-500" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M7 21h10a2 2 0 002-2V9.414a1 1 0 00-.293-.707l-5.414-5.414A1 1 0 0012.586 3H7a2 2 0 00-2 2v14a2 2 0 002 2z" />
+                    </svg>
+                    <div class="ml-2">
+                      <p class="text-sm font-medium text-gray-900 dark:text-white">Video_Call_Improvements.pdf</p>
+                      <p class="text-xs text-gray-500 dark:text-gray-400">2.4 MB</p>
+                    </div>
+                    <button class="ml-auto p-1 text-gray-500 hover:text-gray-700 dark:text-gray-400 dark:hover:text-gray-300">
+                      <svg class="h-5 w-5" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4" />
+                      </svg>
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            
+            <!-- Your message -->
+            <div class="flex justify-end mb-4">
+              <div class="flex flex-col items-end max-w-[70%]">
+                <div class="flex items-center mb-1">
+                  <span class="text-xs text-gray-500 dark:text-gray-400 mr-2">10:38 AM</span>
+                  <span class="text-sm font-medium text-gray-900 dark:text-white">You</span>
+                </div>
+                <div class="bg-indigo-500 text-white rounded-lg px-4 py-2">
+                  <p>Thanks for sharing, Bob. I'll review it and add my suggestions.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+          <!-- Message Input -->
+          <div class="p-4 border-t border-gray-200 dark:border-gray-700">
+            <div class="flex items-center">
+              <button class="p-2 rounded-full text-gray-500 hover:text-gray-900 dark:text-gray-400 dark:hover:text-white focus:outline-none">
+                <svg class="h-5 w-5" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15.172 7l-6.586 6.586a2 2 0 102.828 2.828l6.414-6.586a4 4 0 00-5.656-5.656l-6.415 6.585a6 6 0 108.486 8.486L20.5 13" />
+                </svg>
+              </button>
+              <button class="p-2 rounded-full text-gray-500 hover:text-gray-900 dark:text-gray-400 dark:hover:text-white focus:outline-none">
+                <svg class="h-5 w-5" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 16l4.586-4.586a2 2 0 012.828 0L16 16m-2-2l1.586-1.586a2 2 0 012.828 0L20 14m-6-6h.01M6 20h12a2 2 0 002-2V6a2 2 0 00-2-2H6a2 2 0 00-2 2v12a2 2 0 002 2z" />
+                </svg>
+              </button>
+              <input type="text" placeholder="Type a message..." class="flex-1 mx-2 px-4 py-2 border border-gray-300 dark:border-gray-600 rounded-full bg-gray-50 dark:bg-gray-700 text-gray-900 dark:text-white placeholder-gray-500 dark:placeholder-gray-400 focus:outline-none focus:ring-1 focus:ring-indigo-500 dark:focus:ring-indigo-400">
+              <button class="p-2 bg-indigo-500 text-white rounded-full hover:bg-indigo-600 focus:outline-none">
+                <svg class="h-5 w-5" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 19l9 2-9-18-9 18 9-2zm0 0v-8" />
+                </svg>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,16 @@
+/* Media component specific styles */
+
+/* Hover effects for media items */
+.group:hover .group-hover\:opacity-100 {
+  opacity: 1;
+}
+
+.group:hover .group-hover\:bg-opacity-30 {
+  --tw-bg-opacity: 0.3;
+}
+
+.transition-opacity {
+  transition-property: opacity;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 150ms;
+}
